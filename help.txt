@@ -1,0 +1,8 @@
+To create migrations use
+npm run knex -- migrate:make <migration-name>
+
+To run migrations use
+npm run knex -- migrate:latest
+
+To run a rollback use
+npm run knex -- migrate:rollback
