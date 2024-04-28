@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "test": "vitest",
@@ -14,6 +17,14 @@
   "keywords": [],
   "author": "Alysson Sousa",
   "license": "MIT",
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "dotenv": "16.3.1",
+    "fastify": "4.24.3",
+    "knex": "^2.4.2",
+    "pg": "^8.11.5",
+    "zod": "3.22.4"
+  },
   "devDependencies": {
     "@rocketseat/eslint-config": "2.1.0",
     "@types/node": "20.10.3",
@@ -26,14 +37,7 @@
     "tsup": "^8.0.2",
     "tsx": "4.6.2",
     "typescript": "5.3.2",
-    "vitest": "^1.5.0"
-  },
-  "dependencies": {
-    "@fastify/cookie": "^9.3.1",
-    "dotenv": "16.3.1",
-    "fastify": "4.24.3",
-    "knex": "^2.4.2",
     "sqlite3": "5.0.0",
-    "zod": "3.22.4"
+    "vitest": "^1.5.0"
   }
 }
