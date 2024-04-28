@@ -4,7 +4,7 @@ import { env } from './env'
 app
   .listen({
     port: env.PORT,
-    host: '0.0.0.0',
+    host: env.HOST,
   })
   .then(() => {
     console.log('Http Server Running!')

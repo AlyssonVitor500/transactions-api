@@ -9,6 +9,7 @@ const envSchema = z.object({
   DEBUG_TRACE: booleanEnvValue,
   DEBUG_DATABASE_QUERY: booleanEnvValue,
   PORT: z.coerce.number().default(3333),
+  HOST: z.string().default('0.0.0.0'),
 })
 
 const _env = envSchema.safeParse(process.env)
