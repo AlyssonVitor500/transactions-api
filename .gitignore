@@ -1,8 +1,13 @@
 #Node Modules
 node_modules
 
-#Temp Files
-db/app.db
+#Database
+db/*.db
 
+#Enviroment
 .env
+.env.test
 package-lock.json
+
+#Build project
+build
