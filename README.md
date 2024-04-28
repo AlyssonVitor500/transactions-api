@@ -1,6 +1,6 @@
 # Transaction API
 
-API simples para guardar transações de crédito/débito por usuário.
+API simples de estudo para salvar transações de crédito/débito por usuário.
 
 Ao realizar primeira requisição para a API, a mesma setará um COOKIE que identificará as transações de cada usuário, que podem ser acessadas posteriormente.
 
